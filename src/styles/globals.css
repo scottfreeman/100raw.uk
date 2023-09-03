@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --offwhite: #fafafe;
+  --offblack: #0f0f0f;
+}
+
+body {
+  background-color: var(--offblack);
+  color: var(--offwhite);
+}
+
+.bg-offwhite, .bpf-header, footer {
+  background-color: var(--offwhite);
+  color:  var(--offblack);
+}
+
+.navbar {
+  top: 91px;
+}
+
+.mobile-menu {
+  overflow: auto;
+  height: calc(100vh - 155px);
+  min-height: auto;
+}
+
+.bg-offblack {
+  background-color: var(--offblack);
+}
+
+.text-offblack {
+  color:  var(--offblack);
+}
+
+.text-offwhite {
+  color: var(--offwhite);
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 10px rgb(15 15 15 / 80%), 0 0 0 rgb(15 15 15 / 80%), 0 0 0 rgb(15 15 15 / 80%), 0 0 0 rgb(15 15 15 / 80%)
+}
+
+.text-shadow-xl {
+  text-shadow: 4px 4px 6px rgb(15 15 15 / 90%), 4px 4px 6px rgb(15 15 15 / 90%), 4px 4px 6px rgb(15 15 15 / 90%), 4px 4px 6px rgb(15 15 15 / 90%)
+}
+
+.react-images__view-image--isModal {
+  margin: 0 auto;
+}
+
+.via-black-transparent {
+  --tw-gradient-to: rgb(0 0 0 / 50%) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 80%) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.react-photo-gallery--gallery img {
+  border-radius: 0.25rem;
+}
