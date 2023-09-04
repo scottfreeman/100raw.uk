@@ -11,8 +11,9 @@ export default function Homepage() {
         <title>100raw.uk</title>
       </Head>
       <Header />
-      <Navbar />
-      <main>Welcome to 100raw.uk</main>
+      <main className='text-white flex flex-col h-screen items-center justify-center align-middle from-gray-950 to-gray-700 bg-gradient-to-tl'>
+        <div className='text-4xl md:text-6xl -mt-10'>100raw.uk</div>
+      </main>
       <Footer />
     </>
   );

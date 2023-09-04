@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://bplf.co.uk
+Host: https://100raw.uk
 
 # Sitemaps
-Sitemap: https://bplf.co.uk/sitemap.xml
+Sitemap: https://100raw.uk/sitemap.xml
