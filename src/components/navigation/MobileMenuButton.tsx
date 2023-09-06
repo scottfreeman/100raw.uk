@@ -10,7 +10,7 @@ const MobileMenuButton = ({ mobileMenuOpen, setMobileMenuOpen }: Props) => {
     <button
       onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
       type='button'
-      className='mx-4 inline-flex items-center justify-center rounded-md p-2 text-offwhite md:text-gray-400 hover:bg-gray-700 hover:text-offwhite focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'
+      className='mx-4 inline-flex items-center justify-center rounded-md p-2 text-white md:text-gray-400 hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'
     >
       <svg
         className={`${mobileMenuOpen ? 'hidden' : 'block'} h-6 w-6`}

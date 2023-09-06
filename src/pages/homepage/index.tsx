@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '@/components/header/Header';
 import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
+import Container from '@/components/atoms/Container';
 
 export default function Homepage() {
   return (
@@ -11,9 +12,11 @@ export default function Homepage() {
         <title>100raw.uk</title>
       </Head>
       <Header />
-      <main className='text-white flex flex-col h-screen items-center justify-center align-middle from-gray-950 to-gray-700 bg-gradient-to-tl'>
-        <div className='text-4xl md:text-6xl -mt-10'>100raw.uk</div>
-      </main>
+      {/* <Navbar /> */}
+      <div className='bg-red-700 h-10 mb-4'>&nbsp;</div>
+      <Container>
+        <div className='text-center text-2xl'>Website coming soon!</div>
+      </Container>
       <Footer />
     </>
   );

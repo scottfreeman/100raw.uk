@@ -7,10 +7,7 @@ type Props = {
 const DropdownItem = ({ href, children }: React.PropsWithChildren<Props>) => {
   return (
     <li>
-      <a
-        href={href}
-        className='block text-gray-300 hover:bg-gray-600 hover:text-offwhite rounded-md p-2 text-sm font-medium'
-      >
+      <a href={href} className='block text-white rounded-md p-2 text-sm font-medium hover:underline'>
         {children}
       </a>
     </li>

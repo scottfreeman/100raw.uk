@@ -16,7 +16,7 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
     >
       <li className='w-100 md:w-auto'>
         <span
-          className='select-none cursor-pointer hidden md:block text-gray-300 hover:bg-gray-700 hover:text-offwhite rounded-md px-3 py-2 text-sm font-medium'
+          className='select-none cursor-pointer hidden md:block text-white rounded-md px-3 py-2 text-sm font-medium'
           onClick={() => setVisible(!visible)}
         >
           {text}
@@ -33,7 +33,7 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
         </span>
         <a
           href='#'
-          className='block text-gray-300 rounded-md px-3 py-2 text-sm font-medium md:hidden'
+          className='block text-white rounded-md px-3 py-2 text-sm font-medium md:hidden'
           onClick={(e) => {
             e.preventDefault();
             setVisible(!visible);
@@ -64,7 +64,7 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
         <ul
           className={`${
             visible ? 'block' : 'hidden'
-          } mt-4 bg-gray-700 flex flex-col space-y-4 p-4 rounded-md rounded-t-none md:absolute md:bg-gray-800 md:top-14 md:-mt-1.5 md:space-y-2`}
+          } bg-red-600 flex flex-col space-y-4 p-4 rounded-md md:absolute md:bg-red-800 md:top-14 md:-mt-1.5 md:space-y-2`}
         >
           {children}
         </ul>
