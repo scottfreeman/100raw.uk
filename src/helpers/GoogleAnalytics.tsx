@@ -2,7 +2,7 @@ import React from 'react';
 import Script from 'next/script';
 
 const GoogleAnalytics = () => {
-  const GA = '';
+  const GA = 'G-YB6B2T63DC';
 
   return (
     <>
